@@ -50,17 +50,11 @@ Oytra-Assess/
 ```bash
 # Install development dependencies
 uv sync --all-extras
-
-# Run tests (if available)
-pytest
-
-# Run linting (if configured)
-ruff check .
 ```
 
 ### Project Configuration
 
-The project uses `pyproject.toml` for configuration, following modern Python packaging standards (PEP 517, PEP 518, PEP 621). All project metadata, dependencies, and tool configurations are centralized in this file.
+The project uses `pyproject.toml` for configuration, following modern Python packaging standards. All project metadata, dependencies, and tool configurations are centralized in this file.
 
 ## Data
 

@@ -18,8 +18,6 @@ build/
 # Environment files
 .env
 
-# Processed output data
-data/processed/*.csv
 
 # OS files
 .DS_Store

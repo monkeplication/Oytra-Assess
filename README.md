@@ -63,3 +63,7 @@ Signup.xls should be placed in the `data/raw/` directory. The parsing module in 
 ## Dependencies
 
 Dependencies are managed through `pyproject.toml` and locked in `uv.lock` for reproducible installations across environments.
+
+## License
+
+This project is part of an assessment for Oytra.

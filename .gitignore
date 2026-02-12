@@ -1,71 +1,26 @@
-# =========================
-# Python cache files
-# =========================
-__pycache__/
-*.py[cod]
-*$py.class
-
-# =========================
-# Virtual Environment
-# =========================
+# Virtual environment
 .venv/
-venv/
-env/
-ENV/
 
-# =========================
-# Build / Distribution
-# =========================
-build/
-dist/
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build / packaging
 *.egg-info/
-.eggs/
+dist/
+build/
 
-# =========================
-# Logs
-# =========================
-*.log
-
-# =========================
-# Environment / Secrets
-# =========================
-.env
-.env.*
-*.sqlite3
-
-# =========================
-# IDE / Editor
-# =========================
+# VSCode / editor
 .vscode/
-.idea/
-*.swp
-*.swo
+
+# Environment files
+.env
+
+# Processed output data
+data/processed/*.csv
+
+# OS files
 .DS_Store
-
-# =========================
-# Python version file (optional)
-# =========================
-.python-version
-
-# =========================
-# Coverage / Testing
-# =========================
-.coverage
-htmlcov/
-.pytest_cache/
-
-# =========================
-# MyPy / Ruff / Caches
-# =========================
-.mypy_cache/
-.ruff_cache/
-
-# =========================
-# Jupyter
-# =========================
-.ipynb_checkpoints/
-
-# =========================
-# Data files (optional — remove if you WANT data tracked)
-# =========================
-data/
+Thumbs.db
